@@ -17,7 +17,7 @@ func main() {
 	fmt.Printf("e is of type %T\n", e) // int64
 
 	total := 0.0
-	total = total + 2.5 * 3
+	total = total + 2.5*3
 	fmt.Println(total)
 
 	x := float64(10)

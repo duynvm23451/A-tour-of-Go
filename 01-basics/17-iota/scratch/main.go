@@ -20,12 +20,12 @@ const (
 )
 
 const (
-	Read  = 1 << iota 
-	Write             
+	Read = 1 << iota
+	Write
 	Delete
 	Admin
 )
 
 func main() {
-	fmt.Printf("%v\n", Read | Write | Delete)
+	fmt.Printf("%v\n", Read|Write|Delete)
 }

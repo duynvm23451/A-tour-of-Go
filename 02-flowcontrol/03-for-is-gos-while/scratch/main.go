@@ -20,6 +20,6 @@ func main() {
 		p *= 3
 	}
 
-	fmt.Println(p*3)
+	fmt.Println(p * 3)
 
 }

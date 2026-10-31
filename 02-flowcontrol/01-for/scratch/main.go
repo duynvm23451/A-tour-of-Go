@@ -15,7 +15,7 @@ func main() {
 		fmt.Println("7 *", i, "=", 7*i)
 	}
 
-	for i:= 10; i >= 1; i-- {
+	for i := 10; i >= 1; i-- {
 		fmt.Println(i)
 	}
 }
