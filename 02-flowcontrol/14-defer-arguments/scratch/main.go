@@ -24,7 +24,6 @@ func ex2() {
 	// x * 2 = 20
 }
 
-
 func main() {
 	ex1()
 	ex2()

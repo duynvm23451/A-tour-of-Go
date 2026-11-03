@@ -51,8 +51,8 @@ func main() {
 
 	resetValue(a)
 	fmt.Println(a) // Output: 10
-// không thay đổi vì pass by value
+	// không thay đổi vì pass by value
 	resetPointer(&a)
 	fmt.Println(a) // Output: 0
-// thay đổi vì pass a pointer
+	// thay đổi vì pass a pointer
 }
