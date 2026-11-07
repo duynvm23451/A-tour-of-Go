@@ -14,10 +14,9 @@ type Vertex struct {
 }
 
 type Rectangle struct {
-	Height  int
-	Width int
+	Height int
+	Width  int
 }
-
 
 func main() {
 	student1 := Student{"An", 20, 7.5}

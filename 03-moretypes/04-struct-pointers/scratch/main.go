@@ -63,9 +63,9 @@ func rename(s *Student, newName string) {
 
 func ex5() {
 	var student *Student
-	rename(student, "Bình") // Không có sinh viên
+	rename(student, "Bình")      // Không có sinh viên
 	fmt.Printf("%+v\n", student) // <nil>
 	student = NewStudent("An", 20, 7.5)
 	rename(student, "Bình")
-	fmt.Printf("%+v\n", student) // &{Name:Bình Age:20 Score:7.5}	
+	fmt.Printf("%+v\n", student) // &{Name:Bình Age:20 Score:7.5}
 }

@@ -26,10 +26,10 @@ func main() {
 	fmt.Println(nums) // [10 20 30 1998 100 120]
 	// slice là một view của mảng gốc, nên sửa slice sẽ sửa luôn mảng gốc, không cần con trỏ
 
-	arrCopy := nums     // mảng
-	sliceCopy := x      // slice
-	arrCopy[0] = -1 // sửa arrCopy không sửa nums
-	sliceCopy[0] = -2 // sửa sliceCopy sẽ sửa nums vì sliceCopy là một view của nums
+	arrCopy := nums                       // mảng
+	sliceCopy := x                        // slice
+	arrCopy[0] = -1                       // sửa arrCopy không sửa nums
+	sliceCopy[0] = -2                     // sửa sliceCopy sẽ sửa nums vì sliceCopy là một view của nums
 	fmt.Println(arrCopy, sliceCopy, nums) // [-1 20 30 1998 100 120] [-2 30 1998] [-2 30 1998 100 120]
 
 	// câu đó thì phần tử nums[1] = 7 (đã bị thay đổi)

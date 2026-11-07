@@ -9,7 +9,7 @@ type Student struct {
 }
 
 func birthday(s Student) {
-	s.Age++ 
+	s.Age++
 }
 
 func birthdayReturnObj(s Student) Student {
@@ -40,6 +40,5 @@ func main() {
 	// b := *p           // b nhận gì?
 	// b.Name = "Cường"
 	// fmt.Println(a.Name) // An
-
 
 }

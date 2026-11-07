@@ -14,12 +14,12 @@ func main() {
 	letters := [7]string{"a", "b", "c", "d", "e", "f", "g"}
 	fmt.Println(letters[0:3]) // a b c
 	fmt.Println(letters[2:5]) // c d e
-	fmt.Println(letters[3:4])  // d
+	fmt.Println(letters[3:4]) // d
 	fmt.Println(letters[6:7]) // g
 	fmt.Println(letters[3:3]) // []
 
 	fmt.Println(letters[2:6])
-	
+
 	fmt.Printf("%T\n", letters)
 	fmt.Printf("%T\n", letters[2:6])
 	// letters là một mảng có kiểu [7]string
